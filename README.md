@@ -1,3 +1,9 @@
+# Arwes Starter Web App
+
+Visit the official [Arwes.dev website](https://arwes.dev/docs) to get started.
+
+Visit the main [Arwes repo](https://github.com/arwes/arwes) for lower level information.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
