@@ -22,7 +22,7 @@ const App = () => (
     <Arwes animate show>
       {anim => (
         <div style={{ padding: 20, textAlign: 'center' }}>
-          <h1>Arwes Test App</h1>
+          <h1>Arwes Starter Web App</h1>
           <div style={{ padding: '20px', maxWidth: 400, margin: '0 auto' }}>
                <Frame
                    animate={true}
@@ -54,7 +54,13 @@ const App = () => (
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <Image animate resources='/static/img/wallpaper.jpg'>
+              <Image animate resources={{
+                small: '/img/background-small.jpg',
+                medium: '/img/background-medium.jpg',
+                large: '/img/background-large.jpg',
+                xlarge: '/img/background-xlarge.jpg'
+
+              }}>
                   The vast universe around us
               </Image>
               <p>
